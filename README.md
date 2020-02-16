@@ -16,12 +16,11 @@ Resulting csv is saved with the name you provide.
 
 
 ## Installation
-`pip install outliers_navkiran`
+`pip install missing_data_navkiran`
 
 *Recommended - test in a virtual environment.* 
 
 ## Use via command line
-`outliers_navkiran_cli in.csv out.csv`
 
 Defaults are drop NaN with parameter along = 0 (drops rows containing NaN)
  

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: missing-data-navkiran
-Version: 0.0.5
+Version: 1.0.0
 Summary: Handle Missing Data By Either Dropping Rows/Columns, Forward/Backward Filling or Imputing with Mean, Median or Mode
 Home-page: https://github.com/navkiran/Missing_data_navkiran.git
 Author: Navkiran Singh
@@ -24,12 +24,11 @@ Description: # Library for Handling Missing Data
         
         
         ## Installation
-        `pip install outliers_navkiran`
+        `pip install missing_data_navkiran`
         
         *Recommended - test in a virtual environment.* 
         
         ## Use via command line
-        `outliers_navkiran_cli in.csv out.csv`
         
         Defaults are drop NaN with parameter along = 0 (drops rows containing NaN)
          
