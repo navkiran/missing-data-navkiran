@@ -53,12 +53,22 @@ First argument after outcli is the input csv filename from which the dataset is 
 ```
 from missing_data_navkiran import dropval,filler,impute
 input_df = pd.read_csv('in.csv')
-output_df = dropval(input_df,along=0)
-# Or
-output_df = filler(input_df,1)
-# Or
-output_df = impute(input_df,1)
 ```
+axis = 0
+`output_df = dropval(input_df,along=0)`
+axis = 1 
+`output_df = dropval(input_df,along=1)`
+backward-filling
+`output_df = filler(input_df,0)`
+forward-filling
+`output_df = filler(input_df,1)`
+Mean
+`output_df = impute(input_df,0)`
+Median
+`output_df = impute(input_df,1)`
+Mode
+`output_df = impute(input_df,2)`
+
 
 There are also stand alone functions to fill numerical data and fill categorical data.
 

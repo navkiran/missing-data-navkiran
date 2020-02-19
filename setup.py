@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="missing_data_navkiran", 
-    version="1.0.0",
+    version="1.0.1",
     author="Navkiran Singh",
     author_email="nsingh2_be17@thapar.edu",
     description="Handle Missing Data By Either Dropping Rows/Columns, Forward/Backward Filling or Imputing with Mean, Median or Mode",

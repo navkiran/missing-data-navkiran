@@ -16,7 +16,7 @@ def fill_numerical(df,columns,argument=0):
         dicty = {
                 0:df[col].mean(),
                 1:df[col].median(),
-                2:df[col].mode()
+                2:df[col].mode()[0]
                 }
         val = dicty.get(argument)
         df[col] = df[col].fillna(value=val)
