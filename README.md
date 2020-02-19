@@ -56,16 +56,22 @@ input_df = pd.read_csv('in.csv')
 ```
 axis = 0
 `output_df = dropval(input_df,along=0)`
+
 axis = 1 
 `output_df = dropval(input_df,along=1)`
+
 backward-filling
 `output_df = filler(input_df,0)`
+
 forward-filling
 `output_df = filler(input_df,1)`
+
 Mean
 `output_df = impute(input_df,0)`
+
 Median
 `output_df = impute(input_df,1)`
+
 Mode
 `output_df = impute(input_df,2)`
 
