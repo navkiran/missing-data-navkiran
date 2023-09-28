@@ -1,12 +1,5 @@
 # Library for Handling Missing Data
 
-```
-PROJECT 3, UCS633 - Data Analysis and Visualization
-Navkiran Singh  
-COE17
-Roll number: 101703365
-```
-
 Takes two inputs - filename of input csv, intended filename of output csv. 
 
 Two optional arguments - which must be provided together or left out.
